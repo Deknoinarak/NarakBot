@@ -1,0 +1,22 @@
+{ "intents": [
+        {  
+            "tag": "greeting",
+            "patterns": ["hi", "hello", "is anyone there?", "good day", "whats up", "sup"],
+            "responses": ["Hello!", "What can I help?", "Hi! How can I help?", "Yeah?", "I'm here"]
+        },
+        {  
+            "tag": "goodbye",
+            "patterns": ["bye", "goodbye", "cya", "see ya", "see you later", "see ya"],
+            "responses": ["Sad to see you go TT", "See you later Too!", "Bye!", "Goodbye!"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["what can you do?", "what do you do?"],
+            "responses": ["I can not do anything right now. Hehe", "Nothing! Hehe", "Wait for new version 'cause now I cannot do anything"]
+        },
+        {
+            "tag": "exit",
+            "patterns": ["quit", "exit"],
+            "responses": ["Quiting..."]
+        }
+]}
